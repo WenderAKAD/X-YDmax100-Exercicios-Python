@@ -1,0 +1,24 @@
+# Estruturas Condicionais: 
+'''Exercício 16: Positivo, Negativo ou Zero. Leia um número real e informe se é positivo, negativo ou se o número é igual a zero. 
+'''
+
+def traco40():
+    print('-'*60,)
+
+traco40()
+print(' Vamos descorbrir se o número é POSITIVO, NEGATIVO ou ZERO! ')
+traco40()
+
+
+num = int(input('\n Digite um número inteiro: '))
+if num < 0:
+    print('{0} é negativo.'.format(num))
+elif num == 0:
+    print('{0} é zero. '.format(num))
+elif num > 0:
+    print('{0} positivo. '.format(num))
+'''    
+else:
+    print('{0} positivo. '.format(num))
+'''
+
