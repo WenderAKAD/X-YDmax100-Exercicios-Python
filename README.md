@@ -1,70 +1,136 @@
-# Exercicios de Python
+# Exercícios de Python — X/YDmax100
 
-Colecao de 15 exercicios introdutorios em Python. Os programas foram organizados por numero e abordam leitura de dados, operacoes matematicas, conversoes e estruturas condicionais.
+Repositório dedicado à prática de **lógica de programação e fundamentos de Python**, com uma coleção progressiva de exercícios desenvolvidos durante os estudos.
 
-Cada exercicio e um script independente, executado no terminal e com entradas fornecidas pelo usuario.
+Os exercícios são organizados individualmente por número e trabalham conceitos como entrada e saída de dados, operadores, conversão de tipos, estruturas condicionais, comparações, cálculos e resolução de problemas.
 
-## Conteudos praticados
+> **Status atual:** 32 exercícios disponíveis no repositório.
 
-- Entrada e saida com `input()` e `print()`
-- Conversao de tipos com `int()` e `float()`
-- Variaveis e operadores aritmeticos
-- Formatacao de valores, incluindo moeda
-- Operador de resto (`%`) para identificar numeros pares e impares
+## 🎯 Objetivo
+
+Este projeto tem como objetivo registrar a evolução prática no aprendizado de Python, mantendo os exercícios organizados e acompanhando a progressão dos conceitos estudados.
+
+Além dos códigos-fonte, algumas pastas também preservam registros do processo de desenvolvimento e arquivos gerados durante testes e empacotamento.
+
+## 🐍 Conteúdos praticados
+
+- Entrada e saída com `input()` e `print()`
+- Variáveis e tipos de dados
+- Conversão com `int()` e `float()`
+- Operadores aritméticos
+- Operador de resto (`%`)
+- Comparações e operadores lógicos
 - Estruturas condicionais `if`, `elif` e `else`
+- Validação de condições
+- Classificação de valores por faixas
+- Cálculo de médias, percentuais e reajustes
+- Verificação de intervalos
+- Regras de negócio simples
+- Comparação e ordenação de valores
+- Validação de condições geométricas
+- Resolução de problemas com múltiplas condições
 
-## Requisitos
+## 📚 Exercícios
 
-- [Python 3](https://www.python.org/downloads/)
-- Terminal, como Terminal, PowerShell ou Prompt de Comando
+| # | Tema | O que o programa pratica | Pasta |
+|---:|---|---|---|
+| 1 | Soma de inteiros | Leitura de dois inteiros e soma | `1:15max100` |
+| 2 | Média de notas | Cálculo da média de duas notas | `2:15max100` |
+| 3 | Antecessor e sucessor | Operações com um número inteiro | `3:15max100` |
+| 4 | Dobro, triplo e metade | Cálculos derivados de um número real | `4:15max100` |
+| 5 | Conversão de medidas | Conversão de metros para centímetros e milímetros | `5:15max100` |
+| 6 | Retângulo | Cálculo de área e perímetro | `6:15max100` |
+| 7 | Temperatura | Conversão de Celsius para Fahrenheit | `7:15max100` |
+| 8 | Desconto | Aplicação de percentual de desconto | `8:15max100` |
+| 9 | Reajuste salarial | Cálculo de aumento e novo salário | `9:15max100` |
+| 10 | Comissão de vendas | Cálculo de comissão e salário final | `10:15max100` |
+| 14 | Troca de valores | Troca dos valores armazenados em variáveis | `14:15max100` |
+| 15 | Compra com frete | Cálculo de subtotal e valor final | `15:15max100` |
+| 16 | Positivo, negativo ou zero | Classificação de um número pelo sinal | `16:35max100` |
+| 17 | Par ou ímpar | Verificação de paridade | `17:35max100` |
+| 18 | Maior valor | Comparação entre dois valores | `18:35max100` |
+| 19 | Maior e menor de três números | Identificação do maior e menor entre três valores | `19:35max100` |
+| 20 | Três valores em ordem crescente | Ordenação de três valores, aceitando repetição | `20:35max100` |
+| 21 | Aprovado ou reprovado | Classificação de aluno pela média | `21:35max100` |
+| 22 | Situação do aluno por faixa | Classificação em reprovado, recuperação ou aprovado | `22:35max100` |
+| 23 | Categoria de votação | Classificação por faixa etária conforme a regra do exercício | `23:35max100` |
+| 24 | Ano bissexto | Aplicação das regras de ano bissexto | `24:35max100` |
+| 25 | Preço conforme forma de pagamento | Aplicação de desconto ou acréscimo conforme a forma de pagamento | `25:35max100` |
+| 26 | Reajuste por faixa salarial | Aplicação de percentuais conforme a faixa salarial | `26:35max100` |
+| 27 | Classificação de IMC | Cálculo e classificação do IMC segundo a tabela didática do exercício | `27:35max100` |
+| 28 | É possível formar um triângulo? | Verificação das desigualdades necessárias para formar um triângulo | `28:35max100` |
+| 29 | Tipo de triângulo | Classificação em equilátero, isósceles ou escaleno | `29:35max100` |
+| 30 | Aprovação de empréstimo | Cálculo de prestação e comparação com limite salarial | `30:35max100` |
+| 31 | Divisível por 3 e por 5 | Classificação conforme divisibilidade por 3 e 5 | `31:35max100` |
+| 32 | Número dentro do intervalo | Verificação de pertencimento ao intervalo fechado de 10 a 20 | `32:35max100` |
+| 33 | Dia da semana | Conversão de números de 1 a 7 em dias da semana | `33:35max100` |
+| 34 | Quantidade de dias do mês | Determinação da quantidade de dias, incluindo ano bissexto | `34:35max100` |
+| 35 | Valor do ingresso | Aplicação de meia-entrada conforme as regras do exercício | `35:35max100` |
 
-Nao ha dependencias externas para instalar.
+### Exercícios ainda não presentes
 
-## Como executar
+Os exercícios **11, 12 e 13** ainda não possuem pastas no repositório.
 
-1. Clone o repositorio:
+## 🗂️ Organização
 
-   ```bash
-   git clone https://github.com/WenderAKAD/X-YDmax100-Exercicios-Python.git
-   cd X-YDmax100-Exercicios-Python
-   ```
+Os exercícios estão separados em pastas numeradas. Cada pasta normalmente contém o código-fonte correspondente ao exercício e, em alguns casos:
 
-2. Execute o arquivo desejado com Python. Por exemplo, para o exercicio 10:
+- capturas de tela;
+- registros do processo de desenvolvimento;
+- arquivos de configuração do PyInstaller;
+- diretórios `build/` e `dist/` gerados durante o empacotamento.
 
-   ```bash
-   python3 "10:15max100/Exercício10:15max100.py"
-   ```
+O código-fonte principal de cada exercício permanece no arquivo `.py`.
 
-   No Windows, caso necessario, use `python` no lugar de `python3`.
+> Alguns nomes de arquivos e pastas mantêm a nomenclatura original dos estudos, incluindo acentos e caracteres especiais. Ao executar pelo terminal, pode ser necessário colocar o caminho entre aspas.
 
-3. Informe os valores solicitados pelo programa.
+## ▶️ Como executar
 
-> Os nomes dos arquivos e pastas mantem a nomenclatura original, com acentos e dois-pontos. Por isso, coloque o caminho entre aspas ao executar os comandos no terminal.
+### 1. Clone o repositório
 
-## Exercicios
+```bash
+git clone https://github.com/WenderAKAD/X-YDmax100-Exercicios-Python.git
+cd X-YDmax100-Exercicios-Python
+```
 
-| # | Tema | O que o programa faz | Pasta |
-| --- | --- | --- | --- |
-| 1 | Soma de inteiros | Le dois numeros inteiros e mostra a soma. | `1:15max100` |
-| 2 | Media de notas | Calcula a media de duas notas reais. | `2:15max100` |
-| 3 | Antecessor e sucessor | Exibe os numeros anterior e posterior a um inteiro informado. | `3:15max100` |
-| 4 | Dobro, triplo e metade | Calcula essas tres variacoes de um numero real. | `4:15max100` |
-| 5 | Conversao de medidas | Converte metros em centimetros e milimetros. | `5:15max100` |
-| 6 | Retangulo | Calcula area e perimetro a partir de altura e largura. | `6:15max100` |
-| 7 | Temperatura | Converte graus Celsius em Fahrenheit. | `7:15max100` |
-| 8 | Desconto | Aplica 10% de desconto ao preco de um produto. | `8:15max100` |
-| 9 | Reajuste salarial | Calcula aumento de 15% e o novo salario. | `9:15max100` |
-| 10 | Comissao de vendas | Calcula 4% de comissao e o salario final de um vendedor. | `10:15max100` |
-| 14 | Troca de valores | Troca os valores armazenados nas variaveis `A` e `B`. | `14:15max100` |
-| 15 | Compra com frete | Calcula subtotal e custo final de uma compra. | `15:15max100` |
-| 16 | Positivo, negativo ou zero | Classifica um numero de acordo com seu sinal. | `16:35max100` |
-| 17 | Par ou impar | Verifica a paridade de um numero inteiro. | `17:35max100` |
-| 18 | Maior valor | Compara dois valores e identifica o maior ou a igualdade. | `18:35max100` |
+### 2. Verifique o Python
 
-## Organizacao do repositorio
+```bash
+python3 --version
+```
 
-As pastas dos exercicios 1 a 15 incluem capturas de tela e fotos do processo de desenvolvimento. As pastas dos exercicios 16 a 18 tambem podem conter arquivos de compilacao (`build/`, `dist/` e `.spec`) gerados pelo PyInstaller; os codigos-fonte continuam sendo os arquivos `.py` das respectivas pastas. Os numeros 11, 12 e 13 ainda nao possuem pastas no repositorio.
+No Windows, caso necessário:
 
-## Autor
+```bash
+python --version
+```
 
-Desenvolvido por [Wender Araujo](https://github.com/WenderAKAD) como pratica de logica de programacao e fundamentos de Python.
+### 3. Execute um exercício
+
+Por exemplo:
+
+```bash
+python3 "35:35max100/Exercicio35:35max100.py"
+```
+
+No Windows, pode ser necessário utilizar `python` no lugar de `python3`.
+
+## 🧰 Requisitos
+
+- **Python 3**
+- Terminal, PowerShell ou Prompt de Comando
+- Nenhuma dependência externa é necessária para executar os exercícios básicos
+
+## 📈 Evolução dos estudos
+
+O repositório acompanha uma progressão dos exercícios:
+
+**Fundamentos → operações → comparações → condicionais → regras por faixa → múltiplas condições → resolução de problemas**
+
+Os exercícios mais recentes ampliam o uso de estruturas condicionais e exigem a combinação de diferentes regras para chegar ao resultado esperado.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Wender Araujo** como parte dos estudos de programação, lógica e fundamentos de Python.
+
+**GitHub:** https://github.com/WenderAKAD
